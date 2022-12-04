@@ -1,7 +1,4 @@
 
-var APIKey = AIzaSyAYRNSKgqy8E5HddEJISmlF3VPoDLbs7PU;
-    
-
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
