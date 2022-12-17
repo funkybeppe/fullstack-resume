@@ -10,23 +10,23 @@ function initMap() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [{
-            lat: 40.785091,
-            lng: -73.968285
+            lat: 51.49446393248094, 
+            lng: -0.14129854351972862
         },
         {
-            lat: 41.084045,
-            lng: -73.874245
+            lat: 51.500387040066244, 
+            lng: -0.12911541653425812
         },
         {
-            lat: 40.754932,
-            lng: -73.984016
+            lat: 51.520354549004935, 
+            lng: -0.0937971300265449
         }
     ];
 
     var markers = locations.map(function (location, i) {
         return new google.maps.Marker({
             position: location,
-            label: labels[i % labels.lenght]
+            label: labels[i % labels.length]
         });
     });
 
